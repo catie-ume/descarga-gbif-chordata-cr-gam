@@ -1,0 +1,3 @@
+# Descarga de GBIF de datos de Chordata en la GAM
+Este repositorio contiene el procedimiento para la descarga de GBIF de registros de presencia de especies del filo Chordata (vertebrados) en la gran área metropolitana (GAM) de Costa Rica. El área de la GAM se obtiene a partir de un _shapefile_ proporcionado por ...
+
