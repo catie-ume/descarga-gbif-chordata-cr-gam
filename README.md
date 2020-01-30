@@ -3,7 +3,7 @@ Este repositorio contiene el procedimiento para la descarga, del portal de la [I
 
 Para seguir el procedimiento, es necesaria la biblioteca [Geospatial Data Abstraction Library (GDAL)](https://gdal.org/) para la lectura y escritura de datos geoespaciales. Se recomieda utilizar la versión incluída en la plataforma de ciencia de datos [Anaconda](https://www.anaconda.com/).
 
-1. 
+1. Clonación del repositorio:
 ```terminal
-$ git clone 
+$ git clone https://github.com/catie-ume/descarga-gbif-chordata-cr-gam.git
 ```
