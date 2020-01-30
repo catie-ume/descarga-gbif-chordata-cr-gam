@@ -11,7 +11,7 @@ $ cd descarga-gbif-chordata-cr-gam
 2. Conversión a WGS84:
 ```terminal
 $ ogr2ogr \
-    -t_srs EPSG:4326
-    datos/Limite_GAM_Plan82_2013_08_13_wgs84.shp
+    -t_srs EPSG:4326 \
+    datos/Limite_GAM_Plan82_2013_08_13_wgs84.shp \
     datos/Limite_GAM_Plan82_2013_08_13.shp
 ```
