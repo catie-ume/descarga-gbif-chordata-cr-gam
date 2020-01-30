@@ -6,4 +6,9 @@ Para seguir el procedimiento, es necesaria la biblioteca [Geospatial Data Abstra
 1. Clonación del repositorio:
 ```terminal
 $ git clone https://github.com/catie-ume/descarga-gbif-chordata-cr-gam.git
+$ cd descarga-gbif-chordata-cr-gam
+```
+2. Conversión a WGS84:
+```terminal
+$ ogr2ogr -t_srs EPSG:4326 Limite_GAM_Plan82_2013_08_13_wgs84 Limite_GAM_Plan82_2013_08_13.shp
 ```
