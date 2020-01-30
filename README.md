@@ -12,6 +12,7 @@ $ cd descarga-gbif-chordata-cr-gam
 ```terminal
 $ ogr2ogr \
     -t_srs EPSG:4326 \
+    -simplify 0.001 \
     datos/Limite_GAM_Plan82_2013_08_13_wgs84.shp \
     datos/Limite_GAM_Plan82_2013_08_13.shp
 ```
