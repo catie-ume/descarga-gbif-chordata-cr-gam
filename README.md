@@ -4,3 +4,6 @@ Este repositorio contiene el procedimiento para la descarga, del portal de la [I
 Para seguir el procedimiento, es necesaria la biblioteca [Geospatial Data Abstraction Library (GDAL)](https://gdal.org/) para la lectura y escritura de datos geoespaciales. Se recomieda utilizar la versión incluída en la plataforma de ciencia de datos [Anaconda](https://www.anaconda.com/).
 
 1. 
+```terminal
+$ git clone 
+```
