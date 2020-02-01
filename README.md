@@ -31,8 +31,8 @@ $ ogr2ogr \
 ```
 **4. Despliegue de la geometría**
 ```terminal
-$ ogrinfo 
-    -al 
+$ ogrinfo \
+    -al \
     datos/Limite_GAM_Plan82_2013_08_13_wgs84_simp.shp
 ```
 ```terminal
