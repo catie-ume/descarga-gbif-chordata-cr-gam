@@ -40,7 +40,7 @@ POLYGON ((-83.9779609469256 9.74701527840667,-83.9998166303865 9.80913368562122,
 ```
 **5. Consulta al portal de GBIF**
 Parámetros para la interfaz de [búsqueda de registros de presencia](https://www.gbif.org/occurrence/search):
-* Scientific name: Mammalia (class), Amphibia (class), Reptilia (class), Aves (class) y Plantae (kingdom)
+* Scientific name: Mammalia (class), Amphibia (class), Reptilia (class), Aves (class), Plantae (kingdom)
 * Location:
   * GeoJSON: El polígono en formato WKT desplegado en el paso 4.
   
