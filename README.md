@@ -11,8 +11,8 @@ El polígono de la GAM proviene un _shapefile_ facilitado por el Ministerio de V
 
 **1. Clonación del repositorio**
 ```terminal
-$ git clone https://github.com/catie-ume/descarga-gbif-chordata-cr-gam.git
-$ cd descarga-gbif-chordata-cr-gam
+$ git clone https://github.com/catie-ume/descarga-gbif-chordata-plantae-cr-gam.git
+$ cd descarga-gbif-chordata-plantae-cr-gam
 ```
 **2. Conversión de la geometría a la proyección WGS84**
 ```terminal
