@@ -26,14 +26,14 @@ $ ogr2ogr \
 $ ogr2ogr \
     -t_srs EPSG:4326 \
     -simplify 0.01 \
-    datos/Limite_GAM_Plan82_2013_08_13_wgs84_simp01.shp \
+    datos/Limite_GAM_Plan82_2013_08_13_wgs84_simp.shp \
     datos/Limite_GAM_Plan82_2013_08_13_wgs84.shp
 ```
 **4. Despliegue de la geometría**
 ```terminal
 $ ogrinfo 
     -al 
-    datos/Limite_GAM_Plan82_2013_08_13_wgs84_simp01.shp
+    datos/Limite_GAM_Plan82_2013_08_13_wgs84_simp.shp
 ```
 Resultado:
 ```terminal
