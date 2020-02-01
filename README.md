@@ -44,4 +44,4 @@ Parámetros para la interfaz de [búsqueda de registros de presencia](https://ww
 * Location:
   * GeoJSON: El polígono en formato WKT desplegado en el paso 4.
   
-El resultado de la consulta está disponible en [https://www.gbif.org/occurrence/download/0002756-200127171203522](https://www.gbif.org/occurrence/download/0002756-200127171203522).
+El resultado de la consulta está disponible en [https://www.gbif.org/occurrence/download/0002762-200127171203522](https://www.gbif.org/occurrence/download/0002762-200127171203522).
