@@ -1,7 +1,7 @@
 # Descarga del portal de GBIF de los registros de presencia de especies de _Chordata_ presentes en la GAM de Costa Rica
 Este repositorio contiene el procedimiento para la descarga, del portal de la [Infraestructura Mundial de Información en Biodiversidad (GBIF)](https://www.gbif.org/), de los registros de presencia de especies del filo _Chordata_ (vertebrados) presentes en la gran área metropolitana (GAM) de Costa Rica.
 
-Para seguir el procedimiento, es necesaria la biblioteca [Geospatial Data Abstraction Library (GDAL)](https://gdal.org/) para la lectura y escritura de datos geoespaciales, de la cual se utilizarán los utilitarios de línea de comandos [ogr2ogr](https://gdal.org/programs/ogr2ogr.html) y [ogrinfo](https://gdal.org/programs/ogrinfo.html). Se recomienda utilizar la versión de GDAL incluída en la plataforma de ciencia de datos [Anaconda](https://www.anaconda.com/).
+Para realizar el procedimiento, es necesaria la biblioteca [Geospatial Data Abstraction Library (GDAL)](https://gdal.org/) para la lectura y escritura de datos geoespaciales, de la cual se utilizarán los utilitarios de línea de comandos [ogr2ogr](https://gdal.org/programs/ogr2ogr.html) y [ogrinfo](https://gdal.org/programs/ogrinfo.html). Se recomienda utilizar la versión de GDAL incluída en la plataforma de ciencia de datos [Anaconda](https://www.anaconda.com/).
 
 La consulta al portal de GBIF recibe como parámetros:
 * El nombre científico del taxón (filo _Chordata_).
