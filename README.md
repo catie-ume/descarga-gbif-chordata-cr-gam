@@ -1,7 +1,7 @@
 # Descarga del portal de GBIF de los registros de presencia de especies de _Mammalia_, _Amphibia_, _Reptilia_, _Aves_ y _Plantae_ presentes en la GAM de Costa Rica
 Este repositorio contiene el procedimiento para la descarga, del portal de la [Infraestructura Mundial de Información en Biodiversidad (GBIF)](https://www.gbif.org/), de los registros de presencia de especies de las clases _Mammalia_ (mamíferos), _Amphibia_ (anfibios), _Reptilia_ (reptiles) y _Aves_ (aves); y del reino _Plantae_ (plantas) presentes en la gran área metropolitana (GAM) de Costa Rica.
 
-Para realizar el procedimiento, es necesaria la biblioteca [Geospatial Data Abstraction Library (GDAL)](https://gdal.org/) para la lectura y escritura de datos geoespaciales, de la cual se utilizarán los utilitarios de línea de comandos [ogr2ogr](https://gdal.org/programs/ogr2ogr.html) y [ogrinfo](https://gdal.org/programs/ogrinfo.html). Se sugiere utilizar la versión de GDAL incluída en la plataforma de ciencia de datos [Anaconda](https://www.anaconda.com/).
+Para ejecutar el procedimiento, es necesaria la biblioteca [Geospatial Data Abstraction Library (GDAL)](https://gdal.org/) para la lectura y escritura de datos geoespaciales, de la cual se utilizarán los utilitarios de línea de comandos [ogr2ogr](https://gdal.org/programs/ogr2ogr.html) y [ogrinfo](https://gdal.org/programs/ogrinfo.html). Se sugiere utilizar la versión de GDAL incluída en la plataforma de ciencia de datos [Anaconda](https://www.anaconda.com/).
 
 La consulta al portal de GBIF recibe como parámetros principales:
 * Los nombres científicos de los taxones.
