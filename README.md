@@ -7,7 +7,7 @@ La consulta al portal de GBIF recibe como parámetros:
 * El nombre científico del taxón (filo _Chordata_).
 * El polígono de la GAM.
 
-El polígono proviene un _shapefile_ facilitado por el Ministerio de Vivienda y Asentamientos Humanos (Mivah), el cual se incluye en este repositorio. Para utilizarse en el portal de GBIF, las geometrías deben expresarse en formato [GeoJSON](https://geojson.org/) o [Well Known Text (WKT)](https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry). A continuación, se enumeran los pasos para realizar la conversión de las geometrías a WKT y utilizarlos en una consulta al portal de GBIF.
+El polígono de la GAM proviene un _shapefile_ facilitado por el Ministerio de Vivienda y Asentamientos Humanos (Mivah), el cual se incluye en este repositorio. Para utilizarse en el portal de GBIF, las geometrías deben expresarse en formato [GeoJSON](https://geojson.org/) o [Well Known Text (WKT)](https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry). A continuación, se enumeran los pasos para realizar la conversión de las geometrías a WKT y utilizarlos en una consulta al portal de GBIF.
 
 **1. Clonación del repositorio**
 ```terminal
