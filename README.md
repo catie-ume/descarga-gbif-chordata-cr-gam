@@ -3,11 +3,11 @@ Este repositorio contiene el procedimiento para la descarga, del portal de la [I
 
 Para realizar el procedimiento, es necesaria la biblioteca [Geospatial Data Abstraction Library (GDAL)](https://gdal.org/) para la lectura y escritura de datos geoespaciales, de la cual se utilizarán los utilitarios de línea de comandos [ogr2ogr](https://gdal.org/programs/ogr2ogr.html) y [ogrinfo](https://gdal.org/programs/ogrinfo.html). Se sugiere utilizar la versión de GDAL incluída en la plataforma de ciencia de datos [Anaconda](https://www.anaconda.com/).
 
-La consulta al portal de GBIF recibe como parámetros:
+La consulta al portal de GBIF recibe como parámetros principales:
 * El nombre científico del taxón (filo _Chordata_).
 * El polígono de la GAM.
 
-El polígono de la GAM proviene un _shapefile_ facilitado por el Ministerio de Vivienda y Asentamientos Humanos (Mivah), el cual se incluye en este repositorio. Para utilizarse en el portal de GBIF, las geometrías deben expresarse en formato [GeoJSON](https://geojson.org/) o [Well Known Text (WKT)](https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry). A continuación, se enumeran los pasos para realizar la conversión de las geometrías a WKT y utilizarlos en una consulta al portal de GBIF.
+El polígono de la GAM proviene un _shapefile_ facilitado por el Ministerio de Vivienda y Asentamientos Humanos (Mivah), el cual se incluye en este repositorio, en el subdirectorio /datos. Para utilizarse en el portal de GBIF, las geometrías deben expresarse en formato [GeoJSON](https://geojson.org/) o [Well Known Text (WKT)](https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry) en la proyección WGS84. Además, no deben ser demasiado complejas (i.e. con demasiados vértices). A continuación, se enumeran los pasos para realizar la conversión de las geometrías a WKT en WGS84, simplificarlas y utilizarlas en una consulta al portal de GBIF.
 
 **1. Clonación del repositorio**
 ```terminal
